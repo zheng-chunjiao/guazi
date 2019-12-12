@@ -1,0 +1,137 @@
+.footer {
+    padding: 50px 0 30px;
+    background: #2a2c37;
+}
+.company-info {
+    width: 1190px;
+    height: 90px;
+    margin: 0 auto;
+    color: #b8b8b8;
+    padding-bottom: 70px;
+    position: relative;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.instructions-guazi-name {
+    width: 1190px;
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 28px;
+    line-height: 28px;
+    margin: -25px auto;
+}
+.footer-logo {
+    width: 102px;
+    height: 102px;
+    background-repeat: no-repeat;
+    background-image: url(https://image.guazistatic.com/gz01190923/15/39/f3eebb2bedbd15fc6fb8e3226bf35e44.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.phone-email {
+    float: left;
+    width: 378px;
+    padding-left: 30px;
+    margin-top: -25px;
+}
+.phone-email p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.phone-email p i {
+    padding-right: 18px;
+    font-style:normal
+}
+.phone-email p span {
+    display: inline-block;
+    font-size: 12px;
+}
+.ewm-box {
+    float: left;
+    width: 85px;
+    height: 105px;
+    margin-top: -25px;
+    margin-right: 30px;
+    text-align: center;
+    display: block;
+}
+.ewm-box img {
+    display: block;
+    width: 85px;
+    height: 85px;
+}
+.ewm-box .ewm-tit {
+    line-height: 22px;
+    font-size: 14px;
+}
+.bg-old-ewm {
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.bg-old-ewm {
+    background-image: url(//cli-sta.guazistatic.com/c2c_web/footer-app.5e5c77f77cb804c3d0b18276b53a52ab.png);
+}
+.bg-old-ewm{
+    display: block;
+    width: 85px;
+    height: 85px;
+}
+.ewm-box .ewm-tit-tip {
+    width: 80px;
+    height: 16px;
+    background: #22ac38;
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+}
+.company-info .basic-info {
+    float: left;
+    width: 390px;
+    padding-left: 20px;
+    background: transparent;
+    margin: 0;
+    overflow: hidden;
+    margin-top:-25px
+}
+.info-link {
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+.info-link a {
+    color: #b8b8b8;
+    margin-right: 5px;
+}
+.arc-info {
+    line-height: 20px;
+    font-family: simhei;
+    font-size: 12px;
+}
+.protect {
+    padding-top: 3px;
+    height: 28px;
+    line-height: 28px;
+}
+.protect .police {
+    display: inline-block;
+    text-decoration: none;
+    color: #939393;
+    line-height: 28px;
+    padding-left: 24px;
+    position: relative;
+    font-size: 12px;
+}
