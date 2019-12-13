@@ -7,10 +7,7 @@ import {BrowserRouter as Router,Switch,Route,Redirect} from 'react-router-dom'
 ReactDOM.render(
     (
         <Router>
-                <Switch>
-                    <Route path='/index' render={()=><App/>}/>
-                    <Redirect to='/index' from='/' exact/>
-                </Switch>
-            </Router>
+                <App/>
+        </Router>
     ), document.getElementById('root'));
 

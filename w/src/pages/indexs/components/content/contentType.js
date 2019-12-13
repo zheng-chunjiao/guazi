@@ -1,4 +1,5 @@
 import React,{Component} from 'react'
+import {Link} from 'react-router-dom'
 import {getArticleList} from '../../../../api/api'
 
 import { Tabs } from 'antd';
@@ -12,7 +13,7 @@ class ContentChange extends Component{
         arr3:[],
         arr4:[],
         arr5:[],
-        arr6:[]
+        arr6:[],
     }
     render(){
         const{arr1,arr2,arr3,arr4,arr5,arr6}=this.state
@@ -25,14 +26,16 @@ class ContentChange extends Component{
                             {
                                 arr1.slice(0,12).map((item,index)=>{
                                     return (
-                                        <div className='type-box' key={index}>
-                                            <img src={item.image}/>
-                                            <div className='desc'>
-                                                <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
-                                                <p>{item.time}|{item.mileage}|到店服务</p>
-                                                <p>{item.price}万</p>
+                                        <Link to={`/details/${item.id}`}>
+                                            <div className='type-box' key={index}>
+                                                <img src={item.image}/>
+                                                <div className='desc'>
+                                                    <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
+                                                    <p>{item.time}|{item.mileage}|到店服务</p>
+                                                    <p>{item.price}万</p>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
@@ -41,14 +44,16 @@ class ContentChange extends Component{
                             {
                                 arr2.slice(0,12).map((item,index)=>{
                                     return (
-                                        <div className='type-box' key={index}>
-                                            <img src={item.image}/>
-                                            <div className='desc'>
-                                                <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
-                                                <p>{item.time}|{item.mileage}|到店服务</p>
-                                                <p>{item.price}万</p>
+                                        <Link to={`/details/${item.id}`}>
+                                            <div className='type-box' key={index}>
+                                                <img src={item.image}/>
+                                                <div className='desc'>
+                                                    <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
+                                                    <p>{item.time}|{item.mileage}|到店服务</p>
+                                                    <p>{item.price}万</p>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
@@ -57,14 +62,16 @@ class ContentChange extends Component{
                             {
                                 arr3.slice(0,12).map((item,index)=>{
                                     return (
-                                        <div className='type-box' key={index}>
-                                            <img src={item.image}/>
-                                            <div className='desc'>
-                                                <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
-                                                <p>{item.time}|{item.mileage}|到店服务</p>
-                                                <p>{item.price}万</p>
+                                        <Link to={`/details/${item.id}`}>
+                                            <div className='type-box' key={index}>
+                                                <img src={item.image}/>
+                                                <div className='desc'>
+                                                    <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
+                                                    <p>{item.time}|{item.mileage}|到店服务</p>
+                                                    <p>{item.price}万</p>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
@@ -73,14 +80,16 @@ class ContentChange extends Component{
                             {
                                 arr4.slice(0,12).map((item,index)=>{
                                     return (
-                                        <div className='type-box' key={index}>
-                                            <img src={item.image}/>
-                                            <div className='desc'>
-                                                <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
-                                                <p>{item.time}|{item.mileage}|到店服务</p>
-                                                <p>{item.price}万</p>
+                                        <Link to={`/details/${item.id}`}>
+                                            <div className='type-box' key={index}>
+                                                <img src={item.image}/>
+                                                <div className='desc'>
+                                                    <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
+                                                    <p>{item.time}|{item.mileage}|到店服务</p>
+                                                    <p>{item.price}万</p>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
@@ -89,14 +98,16 @@ class ContentChange extends Component{
                             {
                                 arr5.slice(0,12).map((item,index)=>{
                                     return (
-                                        <div className='type-box' key={index}>
-                                            <img src={item.image}/>
-                                            <div className='desc'>
-                                                <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
-                                                <p>{item.time}|{item.mileage}|到店服务</p>
-                                                <p>{item.price}万</p>
+                                        <Link to={`/details/${item.id}`}>
+                                            <div className='type-box' key={index}>
+                                                <img src={item.image}/>
+                                                <div className='desc'>
+                                                    <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
+                                                    <p>{item.time}|{item.mileage}|到店服务</p>
+                                                    <p>{item.price}万</p>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
@@ -105,14 +116,16 @@ class ContentChange extends Component{
                             {
                                 arr6.slice(0,12).map((item,index)=>{
                                     return (
-                                        <div className='type-box' key={index}>
-                                            <img src={item.image}/>
-                                            <div className='desc'>
-                                                <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
-                                                <p>{item.time}|{item.mileage}|到店服务</p>
-                                                <p>{item.price}万</p>
+                                        <Link to={`/details/${item.id}`}>
+                                            <div className='type-box' key={index}>
+                                                <img src={item.image}/>
+                                                <div className='desc'>
+                                                    <p>{item.name} {item.year} {item.displayment} {item.transmission}</p>
+                                                    <p>{item.time}|{item.mileage}|到店服务</p>
+                                                    <p>{item.price}万</p>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
@@ -154,7 +167,7 @@ class ContentChange extends Component{
                         break;                
                 }
             })
-            console.log(newArr1)
+            // console.log(newArr1)
             this.setState(()=>{
                 return{
                     arr1:newArr1,
