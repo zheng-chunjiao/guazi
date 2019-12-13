@@ -1,0 +1,280 @@
+#header{
+    width: 100%;
+    height: 340px;
+    /* position: relative; */
+    background: url(https://image.guazistatic.com/gz01190923/17/53/9c2d7bfaed19709bbbb9cb305e1ddffe.jpg) #07370d no-repeat;
+    background-size:100%;
+    background-position: 50%;
+    width: 100%;
+    /* margin: 0 auto; */
+
+}
+.header-con{
+    position: relative;
+}
+.search {
+    width: 655px;
+    height: 57px;
+    margin-top: 0;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    border-radius: 6px;
+    position: relative;
+    left:162px;
+    top: 80px;
+}
+.search .index-title {
+    width: 574px;
+    height: 32px;
+    background: url(//cli-sta.guazistatic.com/c2c_web/index-text.d79aa1230c0bba30025efe2f93187609.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -54.5px;
+}
+.search .search-box{
+    border: none;
+    position: relative;
+    width: 100%;
+    height: 57px;
+}
+
+.search .search-box .search-input {
+    width: 70%;
+    height: 44px;
+    margin-top: 7px;
+    line-height: 44px;
+    padding-left: 20px;
+    padding-right: 0;
+    font-size: 18px;
+    border: none;
+    color: #495056;
+}
+.search .search-box .search-btn{
+    display: block;
+    float:right;
+    border: none;
+    line-height: 51px;
+    margin-top: 3px;
+    margin-right: 3px;
+    height: 51px;
+    width: 105px;
+    padding: 0;
+    background: #3cb46d;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.search .search-box .autocomplete-dropdown{
+    display: none;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    margin: 0;
+    padding: 5px 0;
+    z-index: 9998;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #22ac38;
+    box-shadow: 2px 2px 3px #eee;
+    color: #000;
+    overflow: auto;
+    text-align: left;
+}
+.search .search-box .autocomplete-dropdown ul li{
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+    text-indent: 0;
+}
+.leijiayin{
+    width: 228.5px;
+    height: 281px;
+    background: url(https://image.guazistatic.com/gz01190927/18/46/ed7b16246227fcefc92fdfde6e183798.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -100px;
+    right: -300px;
+}
+
+.index-entry-buysell{
+    width: 100%;
+    height: 272px;
+    position: relative;
+    left: 0;
+    bottom: -130px;
+    background: #fff;
+    font-size: 14px;
+    border: 1px solid #dfe3e3;
+    border-top: 0;
+    box-shadow: 0 1px 4px 0 rgba(88,100,117,.2);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+.entry-buycar{
+    width: 728px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:space-around;
+}
+ .entry-title{
+    margin:42px 0 0 42px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entry-title .a3{
+    display: block;
+    font-size: 20px;
+    color: #181818;
+    line-height: 22px;
+    font-weight: 700;
+    height: 22px;
+    float: left;
+}
+ .entry-title .a3:hover{
+    color: #3bb46d;
+}
+.buycar-brand{
+    margin: 15px 0 0 20px;
+    height:22px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.a1{
+    width: 100px;
+    line-height: 22px;
+    color: #181818;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+}
+.a1:hover{
+    color: #3bb46d;
+}
+ .a1 .imgs{
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+    margin-top: -1px;
+    margin-right: 3px;
+}
+.buycar-price{
+    margin: 15px 0 0 20px;
+    height: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ /* .buycar-price  */
+ .a2{
+    display:block;
+    height: 14px;
+    font-size: 14px;
+    color: #181818;
+    line-height: 14px;
+    width: 100px;
+    text-align: center;
+}
+/* .buycar-price  */
+.a2:hover{
+    color: #3bb46d;
+}
+.entry-sellcar{
+    width: 377px;
+    margin-right: 42px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.sellcar-show{
+    font-size: 14px;
+    color: #181818;
+    text-align: right;
+    overflow: hidden;
+    height: 26px;
+    line-height: 27px;
+    width: 210px;
+}
+
+.sellcar-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 42px;
+    height: 125px;
+    width: 100%;
+    margin-top:30px;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+}
+
+.phone-input{
+    display: block;
+    width: 240px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 16px;
+    color: #495056;
+    background: #f5f5f7;
+    border: 1px solid #f5f5f7;
+    border-radius: 4px;
+}
+.btn{
+    width: 114px;
+    height: 54px;
+    line-height: 54px;
+    background: #3cb46d;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.btn:hover{
+    background: #349b5e
+}
+.val{
+    display: flex;
+    width:370px ;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #3cb46d;
+    border-radius: 4px;
+    background: #f0fff6;
+    color: #3cb46d;
+
+}
+.val a{
+    width: 188px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 16px;
+    color: #3cb46d;
+    border-radius: 4px 0 0 4px;
+    display: block;
+    border: none;
+    text-align: center;
+}
+.val a:hover{
+    font-weight: bold;
+}

@@ -1,0 +1,5 @@
+/* 设置版心宽度及其居中 */
+.header-nav-con,.header-con,.content-change,.content-type-con,.content-maodou-con,.content-ques-con{
+    width: 1200px;
+    margin: 0 auto;
+}

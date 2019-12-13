@@ -1,0 +1,93 @@
+.content-maodou-con{
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-maodou-con h3{
+    width: 100%;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 700;
+}
+.maodou-show{
+    height: 346px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adver{
+    width: 227px;
+    height: 346px;
+    background: #f5f5f7;
+}
+
+.adver-p1{
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    color: #495056;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.adver-p2{
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    color: #f76367;
+    text-align: center;
+}
+.adver1 img{
+    display: block;
+    width: 227px;
+    height: 346px;
+}
+.adver2 img{
+    width: 100%;
+    height: 94px;
+    margin: 85px 0 30px;
+}
+.adver3{
+    width: 470px;
+    background: #fff;
+}
+.adver3-div{
+    width: 100%;
+    height: 165px;
+    background:#f5f5f7 ;
+}
+.adver3-div:nth-child(1){
+    margin-bottom: 16px;
+}
+.adver3-div img{
+    width:263px;
+    height: 89px;
+    float: left;
+    margin-top: 30px;
+}
+.car-type{
+    float: left;
+    width: 150px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.adver4 img{
+    width: 150px;
+    height: 158px;
+    margin: 30px 0 20px 30px;
+}
+.adver2:hover{
+    background-color: #fbfbfb;
+}
+.adver3-div:hover{
+    background-color: #fbfbfb;
+}
+.adver4:hover{
+    background-color: #fbfbfb;
+}

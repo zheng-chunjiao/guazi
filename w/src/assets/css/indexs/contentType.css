@@ -1,0 +1,81 @@
+#content-type{
+    width: 100%;
+    background:  #f5f5f7;
+}
+.content-type-con{
+    height: 1253px;
+    
+}
+.content-type-con .tit-h2{
+    font-size: 28px;
+    color: #000;
+    width: 1200px;
+    line-height: 28px;
+    margin: 0 auto;
+    padding-top: 52px;
+    font-weight: bold;
+}
+.content-type-con .ant-tabs-tab{
+    margin-top: 20px;
+    color: #999;
+    font-weight: bold;
+    font-size: 16px;
+}
+.content-type-con .ant-tabs-nav,.content-type-con  .ant-tabs-tab-active{
+    color: black;
+}
+.content-type-con .ant-tabs-ink-bar, .content-type-con .ant-tabs-ink-bar-animated{
+    height: 0;
+}
+.content-type-con .ant-tabs-tabpane{
+    width: 100%;
+    height: 1014px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.type-box{
+    width: 285px;
+    height:320px;
+}
+.type-box img{
+    width: 100%;
+    height: 193px;
+    display: block;
+}
+.desc{
+    width: 100%;
+    padding: 20px 20px 6px;
+    height: 126px;
+}
+.desc p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+    height: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;    
+}
+.desc p:nth-child(2){
+    color: #a5abb2;
+}
+.desc p:nth-child(3){
+    color: #fa5428;
+    font-size: 18px;
+}
+.more{
+    font-size: 14px;
+    color: #495056;
+    line-height: 14px;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+.more:hover{
+    color: #22ac38;
+}

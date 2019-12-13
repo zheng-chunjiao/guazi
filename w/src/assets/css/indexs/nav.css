@@ -1,0 +1,62 @@
+
+.header-nav-con{
+    height: 55px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: url(//cli-sta.guazistatic.com/c2c_web/wh-logo.48578367102547ee80527a409862a82c.png);
+    /* background: url(https://image.guazistatic.com/gz01190927/18/45/b4d6111897d910602908eb9e0a994a6b.png) no-repeat; */
+    background-size: 100% 100%;
+
+}
+.city{
+    height: 34px;
+    padding: 0 15px;
+    /* margin: 10.5px 0 0 14px; */
+    border-radius: 2px;
+    border: 2px solid transparent;
+    background: transparent;
+    /* padding-bottom: 8.5px; */
+    color: #fff;
+}
+.city-curr{
+    line-height: 34px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-list{
+    padding:0 80px 0 200px 
+}
+.nav-list a{
+    padding: 5px 0;
+    line-height: 40px;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #fff;
+}
+.nav-list a:hover{
+    font-weight: bold;
+}
+
+.header-phone{
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 15px 0 0;
+    /* margin-top: 19px; */
+    margin-left: 30px;
+}
+.login a{
+    color:#fff;
+    font-size: 14px;
+    line-height: 14px;
+}
+.active{
+    border-bottom:2px solid #fff;
+}
